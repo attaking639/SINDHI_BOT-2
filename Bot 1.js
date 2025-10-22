@@ -1,6 +1,6 @@
 const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
-  name: "goibot",
+  name: "bot",
   version: "1.0.1",
   hasPermssion: 0,
   credits: "𝗔𝘁𝘁𝗮𝘂𝗹𝗹𝗮𝗵 𝗞𝗵𝘂𝗵𝗮𝗿𝗼",
@@ -886,3 +886,4 @@ return api.sendMessage(msg, threadID, messageID);
 }
 
 module.exports.run = function({ api, event, client, __GLOBAL }) { }
+
